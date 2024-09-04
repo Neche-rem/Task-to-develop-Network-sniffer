@@ -11,8 +11,8 @@ The script allows the user to specify the number of packets to capture and wheth
 The payload is generated in binary format. If the payload is binary or non-text data, converting it to text might not make sense, and it's often best to leave it in its raw byte-string format for accuracy.
 To generate it in human readable form, you can write this instead.
 
-if packet.haslayer(IP):
-        ip_src = packet[IP].src
-        ip_dst = packet[IP].dst
-        proto = packet[IP].proto
-        payload = (packet[IP].payload)
+1. if packet.haslayer(IP):
+2.         ip_src = packet[IP].src
+3.         ip_dst = packet[IP].dst
+4.         proto = packet[IP].proto
+5.         payload = (packet[IP].payload)
