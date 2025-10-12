@@ -1,7 +1,3 @@
-Here's a draft for the README section, including a copyable code block:
-
----
-
 ## Network Sniffer
 
 This project is a network sniffer built using Python and the Scapy library. It captures, analyzes, and logs network traffic, offering insights into the flow of data within a network.
